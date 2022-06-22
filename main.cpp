@@ -361,8 +361,8 @@ void Run(const std::filesystem::path& config, const std::filesystem::path& exeFi
 }
 
 int main() {
-    static constexpr auto configName = "config_8";
-    static constexpr auto executable = "vuln8.exe";
+    static constexpr auto configName = "config";
+    static constexpr auto executable = "vulnerability.exe";
 
     const std::filesystem::path configPath(configName);
     const std::filesystem::path exePath(executable);
